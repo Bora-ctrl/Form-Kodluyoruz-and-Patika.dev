@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kodluyoruz | Patika</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <form class="formFirst mx-auto mt-5 p-2" onsubmit="execute(event)">
+                <h2>Kodluyoruz | Patika Form</h2>
+                <div class="mt-4 p-3">
+                    <div>
+                        <label for="isim" class="form-label">İsminiz</label>
+                        <input type="text" class="form-control" id="isim" autocomplete="off" placeholder="İsmizi giriniz">
+                    </div>
+                    <div>
+                        <label for="soyisim" class="form-label">Soyadınız</label>
+                        <input type="text" class="form-control" id="soyisim" autocomplete="off" placeholder="Soyadınızı giriniz">
+                    </div>
+                    <div>
+                        <label for="tel" class="form-label">Telefon</label>
+                        <input type="number" class="form-control" id="tel" maxlength="11" autocomplete="off" placeholder="Telefon numaranızı giriniz">
+                    </div>
+                    <div>
+                        <label for="adres" class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="adres" autocomplete="off" placeholder="Adresinizi giriniz">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Gönder</button>
+                <button type="reset" class="btn btn-danger">Temizle</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>

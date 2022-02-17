@@ -1,0 +1,38 @@
+body {
+
+    background-color:rgb(192, 218, 242) ;
+}
+.formFirst{
+    width:350px;
+    background-color:rgb(192, 218, 242);
+    height: 500px;
+    box-shadow: 0 4px 8px 2px rgb(255, 255, 255), 0 6px 20px 0 rgb(202, 180, 180, 5);
+}
+h2{
+    color:antiquewhite;
+    opacity: .9;
+}
+
+form, label{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+label{
+    opacity: .5;
+}
+
+form, div{
+    padding-top: 15px; ;
+}
+
+button[type="submit"]{
+    margin-left: 15px;
+}
+button[type="reset"]{
+    margin-left: 148px;
+}
+
+button[type="submit"]:hover,button[type="reset"]:hover{
+    color: black;
+}
+
